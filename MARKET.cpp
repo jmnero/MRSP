@@ -23,6 +23,39 @@ string list[] = {
   "Ror",
 };
 
+string price[]={
+    "25.00",
+    "34.00",
+    "50.00",
+    "10.00",
+    "9.00",
+    "60.00",
+    "70.00",
+    "100.70",
+    "50.70",
+    "70.00",
+    "80.00",
+    "110.00",
+    "90.00",
+    "350.00",
+    "55.00",
+    "150.00",
+    "250.00",
+};
+
+void description(int product){
+
+    
+    cout<<list[product]<<endl;
+    
+    cout<<price[product];
+    
+}
+
+
+
+
+
 void listofproducts(){
   int num;
 
@@ -32,6 +65,9 @@ void listofproducts(){
   }
 
   cin>>num;
+
+
+  description(num);
 
 }
 

@@ -52,10 +52,6 @@ void description(int product){
     
 }
 
-
-
-
-
 void listofproducts(){
   int num;
 
@@ -70,8 +66,6 @@ void listofproducts(){
   description(num);
 
 }
-
-
 
 int main() {
    listofproducts();
